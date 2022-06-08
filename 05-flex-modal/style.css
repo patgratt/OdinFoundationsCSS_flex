@@ -21,6 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .middle {
@@ -46,8 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8px;
-  padding: 12px;
+  flex-shrink: 0;
 }
 
 .button_class {
@@ -66,8 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8px;
-  padding: 12px;
+  flex-shrink: 0;
 }
 
 button {
