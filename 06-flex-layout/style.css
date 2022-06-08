@@ -18,9 +18,9 @@ ul {
   gap: 10px;
   list-style-type: none;
   text-align: center;
+  gap: 16px;
   margin: 0;
   padding: 0;
-  gap: 16px;
 }
 
 ul.left-links {
